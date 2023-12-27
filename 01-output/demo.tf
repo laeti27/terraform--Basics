@@ -1,3 +1,3 @@
 output "sample" {
-    value  = "Hello in the World"
+    value  = "first time terraform"
 }  
