@@ -7,6 +7,6 @@ output "example" {
 }
 
 
-output "demo" {
-    value ="this is a demo"
-}
+#output "demo" {
+#    value ="this is a demo"
+#}
