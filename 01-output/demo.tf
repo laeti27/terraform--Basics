@@ -2,6 +2,6 @@ output "sample" {
     value  = "first time terraform"
 }
 
-output "sample" {
+output "example" {
     value = "My name is Laetitia"
 }
