@@ -20,11 +20,11 @@ output "instance_arn" {
   value = aws_instance.app.arn
 }
 
-resourse "aws_security_group" "allow-tls" {
+resource "aws_security_group" "allow-tls" {
   name         = "b56_allow_tls"
   description  = "B56_Allow TLS inbound traffic"
 
-  ingerss {
+  ingress {
     description     = "SSH from VPC"
     from_port       = 22
     to_port         = 22
