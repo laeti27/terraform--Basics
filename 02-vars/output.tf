@@ -56,3 +56,16 @@ variable "traning_map" {
 output "traning_map_op" {
     value = "${var.traning_map["training"]} has great scope of opportunities and this complete ${var.traning_map["mode"]} and this is our batch ${var.traning_map["batch"]}"
 }
+
+### In reality, we write the code very generic and values would be from the external file based on the environment. 
+### we can declare variable in a variable file and that would be picked up by TF and the variables file should always ending with *tfvars.check "
+
+### terraform.tfvars is the default file that would be picked. 
+
+variable "city" {
+
+    output "city_name" {
+        value =var.city 
+    }
+}
+
