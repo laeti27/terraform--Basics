@@ -80,3 +80,9 @@ variable "country" {}
 output "country_name" {
     value = var.country 
 }
+
+variable "environment" {}
+
+output "environment_name" {
+    value = "Name of the environment is ${var.environment}"
+}
