@@ -40,5 +40,5 @@ variable "example_list" {
 
 # Printing a list Variable
 output "example_list_op" {
-    value ="Welcome To ${var.example_list[0]} with ${var.example_list[1]} Training and this is our batch ${var.example_list[4]} and training ${var.example-list[3]}"
+    value ="Welcome To ${var.example_list[0]} with ${var.example_list[1]} Training and this is our batch ${var.example_list[4]} and training ${var.example_list[3]}"
 }
