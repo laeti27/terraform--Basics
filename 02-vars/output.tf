@@ -88,6 +88,7 @@ output "environment_name" {
 }
 
 # Example of the Usage of Shell Variable
+# you can supply the value
 variable "course" {}
 
 output "course_op" {
