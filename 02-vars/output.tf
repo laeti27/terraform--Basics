@@ -53,6 +53,6 @@ variable "traning_map" {
 }
 
 # Printing a Map Variable
-output "training_map_op" {
-    value = "${var.training_map["training"]} has great scope of opportunities and this complete ${var.training_map["mode"]} and this is our batch ${var.training_map["batch"]}"
+output "traning_map_op" {
+    value = "${var.traning_map["training"]} has great scope of opportunities and this complete ${var.traning_map["mode"]} and this is our batch ${var.traning_map["batch"]}"
 }
