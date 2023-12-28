@@ -62,10 +62,10 @@ output "traning_map_op" {
 
 ### terraform.tfvars is the default file that would be picked. 
 
-variable "city" {
+variable "city" {}
 
-    output "city_name" {
-        value =var.city 
-    }
+output "city_name" {
+    value = var.city 
 }
+
 
