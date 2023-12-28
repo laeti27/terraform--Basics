@@ -21,7 +21,7 @@ output "instance_arn" {
   value = aws_instance.app.arn
 }
 
-resource "aws_security_group" "allow-tls" {
+resource "aws_security_group" "allow-tls.id" {
   name         = "b56_allow_tls"
   description  = "B56_Allow TLS inbound traffic"
 
