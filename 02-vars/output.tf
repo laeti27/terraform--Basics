@@ -18,10 +18,10 @@ output "batch_number" {
     value = "Curent Batch is var.batch"
 }
 
-variable "numerical" {
+variable "numerival" {
     default = 100
 }
 
 output "numerical_op" {
-    value = numerical
+    value = numerival
 }
