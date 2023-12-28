@@ -86,3 +86,10 @@ variable "environment" {}
 output "environment_name" {
     value = "Name of the environment is ${var.environment}"
 }
+
+# Example of the Usage of Shell Variable
+variable "course" {}
+
+output "course_op" {
+    value = var.course 
+}
