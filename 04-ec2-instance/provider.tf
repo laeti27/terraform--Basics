@@ -23,7 +23,7 @@ output "instance_arn" {
 
 resource "aws_security_group" "allow-tls" {
   name         = "b56_allow_tls"
-  description  = "B56_Allow TLS inbound traffic"
+  description  = "B56 Allow TLS inbound traffic"
 
   ingress {
     description     = "SSH from VPC"
