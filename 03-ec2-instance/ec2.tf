@@ -18,8 +18,8 @@ output "instance_arn" {
 }
 
 resource "aws_security_group" "allow_tls" {
-  name        = "b56_allow_tls"
-  description = "B56 Allow TLS inbound traffic"
+  name        = "allow_tls"
+  description = "Allow TLS inbound traffic"
   
 
   ingress {
