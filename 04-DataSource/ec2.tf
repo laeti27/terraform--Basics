@@ -12,7 +12,7 @@ resource "aws_instance" "app" {
 
 data "aws_ami" "ami" {
   most_recent      = true
-  name_regex       = "ami-06757df8d9f4a3757"
+  name_regex       = "ansibleb56"
   owners           = ["750773811746"]
 }
 
