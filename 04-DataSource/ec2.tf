@@ -16,4 +16,6 @@ data "aws_ami" "ami" {
   owners           = ["750773811746"]
 }
 
+
+
   
